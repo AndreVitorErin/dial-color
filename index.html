@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Seletor de Cor</title>
+  </head>
+  <body>
+    <h1>Seletor de Cor</h1>
+
+    <div class="flex-row">
+      <span class="label">(R) Vermelho</span>
+      <input
+        class="range"
+        id="inputRangeRed"
+        type="range"
+        min="0"
+        max="255"
+        value="0"
+      />
+      <input class="text" id="inputTextRed" type="text" disabled value="0" />
+    </div>
+
+    <div class="flex-row">
+      <span class="label">(G) Verde</span>
+      <input
+        class="range"
+        id="inputRangeGreen"
+        type="range"
+        min="0"
+        max="255"
+        value="0"
+      />
+      <input class="text" id="inputTextGreen" type="text" disabled value="0" />
+    </div>
+
+    <div class="flex-row">
+      <span class="label">(B) Azul</span>
+      <input
+        class="range"
+        id="inputRangeBlue"
+        type="range"
+        min="0"
+        max="255"
+        value="0"
+      />
+      <input class="text" id="inputTextBlue" type="text" disabled value="0" />
+    </div>
+
+    <div id="divSquare" class="square"></div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
